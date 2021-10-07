@@ -1,14 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dawna's Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
+
 </head>
+
 <body>
-    <h1>Dawna Natale's Portfolio</h1>
-    
+
+    <nav id="nav" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <span class="navbar-brand" href="#">Dawna Natale</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bi bi-code-slash"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://github.com/DawnaNatale">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/dawnanatale/">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img src="photos/IMG_1676_jpg.JPG" alt="" class="portrait">
+    <div class="card border-0" style="width: 50%;">
+        <div class="card-body">
+            <h3 class="card-title">Hi, I'm Dawna!</h3>
+            <p class="card-text">I am a software developer. I am currently enrolled in a bootcamp at WeCanCodeIt
+                learning C#. On my own, I
+                have learned HTML, CSS, and Javascript via a course on Udemy taught by Colt Steele.
+                <br>
+                <br>
+                I graduated in 2015 from Walsh University in Canton, OH, where I was born and raised. I earned a
+                Bachelors
+                of Science in Chemistry with a minor in Forensics.
+                <br>
+                <br>
+                <i class="fas fa-ellipsis-h"></i>
+            </p>
+            <h4 class="skillsHead">Technical Inventory</h4>
+            <div class="mySkills">
+                <ul class="colOne">
+                    <li>C#</li>
+                    <li>.NET Core</li>
+                    <li>Active Server Pages / ASP.net</li>
+                    <li>JavaScript</li>
+                    <li>Flexbox</li>
+                    <li>MVC</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Grid</li>
+                    <li>TDD</li>
+                </ul>
+                <ul class="colTwo">
+                    <li>Agile (Scrum)</li>
+                    <li>Object Oriented Programming (OOP)</li>
+                    <li>AJAX</li>
+                    <li>JSON</li>
+                    <li>React</li>
+                    <li>Restful APIs</li>
+                    <li>Responsive Design / Mobile</li>
+                    <li>MS SQL / MongoDB</li>
+                    <li>GitHub</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </div>
+            <div class="email">Want to get in contact with me?<br>
+                <a href="mailto:DawnaNatale1993@gmail.com" target="_blank" class="btn btn-sm"><i
+                        class="bi bi-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="sticky-bottom">&copy;Dawna Natale</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

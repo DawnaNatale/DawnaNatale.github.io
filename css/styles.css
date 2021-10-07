@@ -1,0 +1,150 @@
+body{
+    padding-bottom: 0px;
+    background-image: url(/photos/editedcoffee.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav{
+    margin-bottom: 30px;
+    background-color: #b08968;
+    opacity: 60%;
+}
+
+.navbar-brand{
+    color: #ede0d4;
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 13px 10px;
+    color: #ede0d4;
+}
+
+.nav-link:hover{
+    color: #e9c46a;
+}
+
+.nav-link:active{
+    color: #e9c46a;
+}
+
+.navbar-toggler{
+    color: #ede0d4;
+}
+
+.card{
+    margin: auto auto;
+    background-color: #ede0d4;
+    opacity: 90%;
+    border-radius: 20%;
+   
+}
+
+.card-title{
+    color: #7f5539;
+    text-shadow: 1px 1px #b08968;
+    text-align: center;
+    opacity: 90%;
+}
+
+.card-text{
+    color: #7f5539;
+    text-align: center;
+}
+
+.email{
+    color: #7f5539;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.btn{
+    padding: 0px 4px 0px 4px;
+    margin: auto;
+   text-align: center;
+   color: #ede0d4;
+   background-color: #7f5539;
+   opacity: 70%;
+}
+
+.btn:hover{
+    color: #e9c46a;
+}
+
+
+.portrait{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    opacity:unset;
+    border-radius: 30%;
+    /* border: 3px solid #b08968; */
+    
+}
+
+.mySkills{
+display: flex;
+justify-content:space-evenly;
+/* border: 1px solid #7f5539; */
+padding: 10px 10px 30px 10px;
+}
+
+h4{
+    text-align: center;
+    color: #7f5539;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #b08968;
+}
+
+.colOne{
+    flex: 50%;
+    color: #7f5539;
+    font-size: 1rem;
+}
+
+.colTwo{
+    flex: 50%;
+    color: #7f5539;
+    font-size: 1rem;
+}
+
+footer{
+    padding-top: 10%;
+    text-align: center;
+    color: #b08968;
+    opacity: 60%;
+}
+
+
+
+/* Styling for Project Page */
+
+.projects{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: #7f5539;
+}
+
+.projects:hover{
+    color: #e9c46a;
+}
+
+.project-photo{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 400px;
+    width:400px;
+    border-radius: 50%;
+    border: 3px solid #b08968;
+}
